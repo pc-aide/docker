@@ -10,3 +10,20 @@
 docker container run --rm -it consul
 ````
 [<img src="https://i.imgur.com/Yr6whAq.png">](https://i.imgur.com/Yr6whAq.png)
+
+---
+
+## Test
+````ps1
+curl 127.0.0.1:8500
+
+curl : Unable to connect to the remote server
+````
+
+---
+
+## port public in container
+````ps1
+# -p portContainer: portHost
+docker containre run -rm -it -p 8500:8500 consul
+````
