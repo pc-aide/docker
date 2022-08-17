@@ -24,6 +24,6 @@ curl : Unable to connect to the remote server
 
 ## port public in container
 ````ps1
-# -p portContainer: portHost
+# -p portHost:portContainer
 docker containre run -rm -it -p 8500:8500 consul
 ````
