@@ -25,7 +25,7 @@ curl : Unable to connect to the remote server
 ## port public in container
 ````ps1
 # -p portHost:portContainer
-docker container run -rm -it -p 8500:8500 consul
+docker container run --rm -it -p 8500:8500 consul
 ````
 [<img src="https://i.imgur.com/UWBMLgT.png">](https://i.imgur.com/UWBMLgT.png)
 * test url again:
