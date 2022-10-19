@@ -12,3 +12,4 @@
 |4|process|`docker compose ps`|[<img src="https://i.imgur.com/ax6Ttif.png">](https://i.imgur.com/ax6Ttif.png)|
 |5|volume|docker volume ls||
 |6|prune|# delete volume<br/> `docker volume prune`||
+|7|system|docker system df||
